@@ -19,10 +19,10 @@ btn.addEventListener("click",(e)=>{
 		}
 	let td=document.createElement("td");
 let clear_btn=document.createElement("button");
-	clear_btn.class="delete";
+	clear_btn.className="delete";
 	clear_btn.innerText="x"
-	clear_btn.style.backgroundColor="red";
-	clear_btn.style.color="white";
+	// clear_btn.style.backgroundColor="red";
+	// clear_btn.style.color="white";
 	td.append(clear_btn);
 	tr.append(td);
    book.append(tr);
